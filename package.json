@@ -1,0 +1,44 @@
+{
+  "name": "bot-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "create-migrations": "drizzle-kit generate:pg",
+    "migrate": "ts-node src/migrate.ts",
+    "start": "ts-node-dev --respawn --transpile-only src/index2.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqp-connection-manager": "^4.1.14",
+    "amqplib": "^0.10.3",
+    "crawlee": "^3.6.1",
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.29.0",
+    "fingerprint-injector": "^2.1.43",
+    "ioredis": "^5.3.2",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "pg": "^8.11.3",
+    "playwright": "^1.40.0",
+    "puppeteer": "^21.5.2",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.4",
+    "@types/node": "^20.9.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-telegram-bot-api": "^0.63.2",
+    "@types/pg": "^8.10.9",
+    "drizzle-kit": "^0.20.4",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}

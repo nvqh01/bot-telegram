@@ -1,0 +1,8 @@
+# Folders
+.docker
+.puppeteer
+node_modules
+storage
+
+# Files
+.env
